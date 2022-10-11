@@ -1,8 +1,0 @@
-Urna-Module DEFINITIONS ::=
-BEGIN
-
-RESULTADO ::= SEQUENCE {
-    serialNumber BIT STRING (SIZE (32))
-}
-
-END

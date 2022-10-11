@@ -1,0 +1,15 @@
+QuestionThree DEFINITIONS ::=
+
+BEGIN
+
+ ::= SEQUENCE {
+    ballotBoxSerialNumber       BIT STRING (SIZE(32)),
+    electoralDistrictID         INTEGER (SIZE(4)),
+    electoralZoneID             INTEGER (SIZE(4)),
+    voters                      INTEGER (0..1000)
+
+    votesForMayor               SEQUENCE (SIZE(0..100)) OF voters
+
+}
+
+END

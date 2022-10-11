@@ -1,0 +1,20 @@
+QuestionTwo DEFINITIONS ::=
+
+BEGIN
+
+TamanhoDeCaixa ::=  SEQUENCE{
+
+    measurements            ENUMERATED  {
+                            yards   (0),
+                            inches  (1),
+                            foot    (2)
+                                        },
+
+    measurementsValues      SEQUENCE    {
+                            height REAL,
+                            length REAL,
+                            width REAL
+                                        }
+                            }
+
+END

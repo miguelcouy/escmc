@@ -1,0 +1,14 @@
+QuestionOne DEFINITIONS ::=
+
+BEGIN
+
+TamanhoDeCaixa ::= SEQUENCE{
+    
+    measurements UTF8String ("Yards" | "Inches" | "Foot"),
+    height      REAL,
+    width       REAL,
+    length      REAL
+                            }
+
+END
+
