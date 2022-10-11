@@ -1,0 +1,12 @@
+Plano-Cartesiano-Module DEFINITIONS ::=
+
+BEGIN
+
+PrimeiroQuadrante ::= REAL (0..MAX)
+
+PontoNoPlano ::= SEQUENCE {
+
+    x    PrimeiroQuadrante,
+    y    PrimeiroQuadrante }
+
+END
