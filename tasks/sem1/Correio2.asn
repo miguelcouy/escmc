@@ -1,0 +1,21 @@
+Correio-Module DEFINITIONS ::=
+
+BEGIN
+
+JARDAS    ::= REAL (0..MAX)
+PES       ::= REAL (0..3)
+POLEGADAS ::= REAL (0..12)
+
+MEDIDA ::= SEQUENCE {
+	jardas    JARDAS,
+	pes       PES,
+	polegadas POLEGADAS
+}
+
+TamanhoDeCaixa ::= SEQUENCE {
+    altura          MEDIDA,
+    largura         MEDIDA,
+    comprimento     MEDIDA
+}
+
+END
