@@ -1,0 +1,15 @@
+Urna-Module DEFINITIONS ::=
+
+BEGIN
+
+Voters ::= INTEGER(0..1000)
+
+Urna ::= SEQUENCE {
+    
+    numeroSerie      BIT STRING(SIZE(32)),
+    zone             INTEGER(0..9999),
+    section          INTEGER(0..9999),
+    votosVereadores  SEQUENCE (SIZE(0..99999)) OF voters Voters,
+    votosPrefeitos  SEQUENCE (SIZE(0..100)) OF voters Voters}
+
+END
