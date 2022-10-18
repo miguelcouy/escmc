@@ -7,4 +7,5 @@ de "dafault-country", como default-country PrintableString::=
 atributos, como equality-match, Type, collective, etc. A classe
 ATTRIBUTE possui um atributo chamado derivation do tipo ATTRIBUTE
 que é uma sequência. Além disso, outro atributos como equality-match,
-ordering-match e substrings-match são do tipo MATCHING-RULE:: = CLASS
+ordering-match e substrings-match são do tipo MATCHING-RULE:: = CLASS.
+O restante do código não ficou claro.
